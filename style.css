@@ -132,13 +132,15 @@ body {
 }
 
 .sidebar .storage {
-    padding: 0 40px 35px;
+    box-sizing: border-box;
+    padding: 0 6px 35px;
     margin-top: auto;
 
 }
 
 .sidebar .storage .title {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     color: #fff;
@@ -427,9 +429,12 @@ body {
   
 
 .content .right-bar { 
+    display: flex;
+    flex-direction: column;
     width: 360px;
     padding: 32px 0; 
     border-left: 2px solid #F6F7FA;  
+    box-sizing: border-box;
 
 }
 
@@ -468,4 +473,104 @@ body {
     font-size: 15px;
     margin-left: 12px;
     color: #B1B4CE;
+}
+.content .right-bar .right-bar-activities {
+   height: 714px;
+   width: 261px;
+   margin: 60px 50px 50px;
+}
+.content .right-bar .right-bar-activities .activities-section {
+    margin-bottom: 88px;
+}
+.content .right-bar .right-bar-activities .activities-section .activities-img {
+    margin: 12px 30px;
+    padding-right: 8px;
+}
+
+.content .right-bar .right-bar-activities .activities-section ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.content .right-bar .right-bar-activities .activities-section ul li a {
+    font-size:  12px;
+    width: 188px;
+    color: #0E1B42;
+    display: block;
+    font-weight: 400;
+    padding: 2px 2px;
+    line-height: 20px;
+}
+.content .right-bar .right-bar-activities .activities-section ul li .time-1 {
+        font-size: 11px;
+        color: #8186AD;
+        margin-left: 29px;
+}
+.content .right-bar .right-bar-activities .activities-section ul li .circle-1{
+    width: 20px;
+    height: 20px;
+    background: rgba(76, 82, 188, .06) ;
+    border-radius: 20px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content .right-bar .right-bar-activities .activities-section ul li .circle-2{
+    width: 6px;
+    height: 6px;
+    background:rgba(76, 82, 188, .30);
+    border-radius: 6px;
+
+}
+.content .right-bar .right-bar-activities .activities-section ul li .circle-3{
+    width: 20px;
+    height: 20px;
+    background: rgba(248, 217, 175, .06) ;
+    border-radius: 20px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content .right-bar .right-bar-activities .activities-section ul li .circle-4{
+    width: 6px;
+    height: 6px;
+    background:rgba(248, 217, 175);
+    border-radius: 6px;
+
+}
+.content .right-bar .right-bar-activities .activities-section ul li .circle-5{
+    width: 20px;
+    height: 20px;
+    background: rgba(196, 226, 230, .24) ;
+    border-radius: 20px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content .right-bar .right-bar-activities .activities-section ul li .circle-6{
+    width: 6px;
+    height: 6px;
+    background:rgba(188, 226, 231);
+    border-radius: 6px;
+
+}
+
+.content .right-bar .right-bar-activities .activities-section .activities-list-2 {
+    margin-bottom: 30px;
+}
+
+.content .right-bar .right-bar-activities .activities-refer-friend{
+    width: 260px;
+    height: 260px;
+    margin-bottom: 51px;
 }
