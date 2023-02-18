@@ -494,12 +494,12 @@ body {
 }
 
 .content .right-bar .right-bar-activities .activities-section ul li a {
-    font-size:  12px;
+    font-size: 12px;
     width: 188px;
     color: #0E1B42;
     display: block;
     font-weight: 400;
-    padding: 2px 2px;
+    padding: 0 2px;
     line-height: 20px;
 }
 .content .right-bar .right-bar-activities .activities-section ul li .time-1 {
